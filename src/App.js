@@ -1,22 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import MetaMask from "./components/MetaMask";
+import "./App.css";
+//import { ethers } from "ethers";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Check how much gas you've spent</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Connect your wallet and enter a date range to show how much gas you've
+          spent in that time.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <MetaMask />
       </header>
     </div>
   );
