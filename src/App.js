@@ -1,6 +1,5 @@
 import MetaMask from "./components/MetaMask";
 import "./App.css";
-//import { ethers } from "ethers";
 
 function App() {
   return (
